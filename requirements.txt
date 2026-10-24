@@ -1,0 +1,11 @@
+streamlit
+
+pulp
+
+pandas
+
+numpy
+
+matplotlib
+
+highspy
