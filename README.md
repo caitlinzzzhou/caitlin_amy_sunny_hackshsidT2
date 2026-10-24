@@ -3,6 +3,9 @@
 ## Overview
 The co-scheduling problem is formulated as a mixed-integer linear program  that decides, for every hour of the day, how much of each task to execute and how to power it from various sources of energy. The dashboard allows for user inputs and displays the optimization results.
 
+## Solution Document
+Open main.pdf to view details of our model
+
 ## Prerequisites
 * Python 3.8 or higher
 * pip
@@ -36,13 +39,9 @@ Open a terminal and run:
 streamlit run datacenter_gui.py
 ```
 
-### Running MILP + full report
-Note: report saved in the outputs/ folder in the current directory
+### Running the solver
 ```bash
-python main.py
+streamlit run solver.py
 ```
 
-### Running MILP vs. Greedy comparison only
-```bash
-python main.py --base
-```
+
